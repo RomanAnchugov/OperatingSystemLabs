@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="OperatingSystemLabs" targetName="OperatingSystemLabs" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="057231dd-35c4-47f3-bec6-207ae10b59db" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1U7YpV7HPFooXkpQwA88ucLlVSz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunManager">
+    <configuration name="OperatingSystemLabs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OperatingSystemLabs" TARGET_NAME="OperatingSystemLabs" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OperatingSystemLabs" RUN_TARGET_NAME="OperatingSystemLabs">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="057231dd-35c4-47f3-bec6-207ae10b59db" name="Default Changelist" comment="" />
+      <created>1578814444826</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578814444826</updated>
+      <workItem from="1578814447984" duration="6701000" />
+      <workItem from="1579156676010" duration="9544000" />
+      <workItem from="1579273564210" duration="3171000" />
+      <workItem from="1579341364378" duration="3019000" />
+      <workItem from="1579512242322" duration="3023000" />
+      <workItem from="1579750688638" duration="920000" />
+    </task>
+    <task id="LOCAL-00001" summary="take list of lpq in child, write to file and print it in parent. Start to work with interruption">
+      <created>1578823344385</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578823344385</updated>
+    </task>
+    <task id="LOCAL-00002" summary="iterruption handler, some basics system calls">
+      <created>1579340052165</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579340052165</updated>
+    </task>
+    <task id="LOCAL-00003" summary="final working version">
+      <created>1579515495771</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579515495771</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Polishment">
+      <created>1579751063906</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579751063906</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Polishment">
+      <created>1579751817892</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579751817892</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="take list of lpq in child, write to file and print it in parent. Start to work with interruption" />
+    <MESSAGE value="iterruption handler, some basics system calls" />
+    <MESSAGE value="final working version" />
+    <MESSAGE value="Polishment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Polishment" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579169059028">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1579169059028" />
+    <state x="424" y="127" key="CommitChangelistDialog2" timestamp="1579752037222">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="424" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1579752037222" />
+    <state x="169" y="94" key="DiffContextDialog" timestamp="1578823290978">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="169" y="94" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1578823290978" />
+    <state width="1680" height="301" key="GridCell.Tab.0.bottom" timestamp="1579751694454">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1680" height="301" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579751694454" />
+    <state width="1680" height="301" key="GridCell.Tab.0.center" timestamp="1579751694453">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1680" height="301" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579751694453" />
+    <state width="1680" height="301" key="GridCell.Tab.0.left" timestamp="1579751694452">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1680" height="301" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579751694452" />
+    <state width="1680" height="301" key="GridCell.Tab.0.right" timestamp="1579751694453">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1680" height="301" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579751694453" />
+    <state x="404" y="181" key="Registry" timestamp="1579172606641">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="404" y="181" key="Registry/0.0.1680.1050@0.0.1680.1050" timestamp="1579172606641" />
+    <state x="349" y="164" key="SettingsEditor" timestamp="1579752021179">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1579752021179" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1579751694421">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1579751694421" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1579752039244">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1579752039244" />
+    <state x="519" y="387" key="com.intellij.ide.util.TipDialog" timestamp="1579750689412">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="519" y="372" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1579274270922" />
+    <state x="519" y="387" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1579750689412" />
+    <state x="629" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578821126660">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="629" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.1027@0.23.1680.1027" timestamp="1578821126660" />
+    <state x="565" y="162" key="refactoring.ChangeSignatureDialog" timestamp="1579173215858">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="565" y="162" key="refactoring.ChangeSignatureDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1579173215858" />
+    <state x="505" y="248" key="run.anything.popup" timestamp="1579164607252">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="248" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1579164607252" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1579341432204">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1579341432204" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1579172583009" />
+  </component>
+</project>

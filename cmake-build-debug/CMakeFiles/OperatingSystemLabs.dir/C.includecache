@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ranchugov/CLionProjects/OperatingSystemLabs/lab1.c
+stdlib.h
+-
+stdio.h
+-
+unistd.h
+-
+fcntl.h
+-
+signal.h
+-
+string.h
+-
+
