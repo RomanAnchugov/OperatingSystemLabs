@@ -39,9 +39,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1U7YpV7HPFooXkpQwA88ucLlVSz" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -96,7 +97,7 @@
       <workItem from="1579273564210" duration="3171000" />
       <workItem from="1579341364378" duration="3019000" />
       <workItem from="1579512242322" duration="3023000" />
-      <workItem from="1579750688638" duration="920000" />
+      <workItem from="1579750688638" duration="1175000" />
     </task>
     <task id="LOCAL-00001" summary="take list of lpq in child, write to file and print it in parent. Start to work with interruption">
       <created>1578823344385</created>
@@ -133,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579751817892</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Polishment">
+      <created>1579752037324</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579752037324</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,18 +196,19 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1579751694421" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1579752039244">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1579752422362">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1579752039244" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1579752422362" />
     <state x="519" y="387" key="com.intellij.ide.util.TipDialog" timestamp="1579750689412">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="519" y="372" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1579274270922" />
     <state x="519" y="387" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1579750689412" />
-    <state x="629" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578821126660">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="629" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579752258051">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="629" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1579752258051" />
     <state x="629" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.1027@0.23.1680.1027" timestamp="1578821126660" />
     <state x="565" y="162" key="refactoring.ChangeSignatureDialog" timestamp="1579173215858">
       <screen x="0" y="0" width="1680" height="1050" />
