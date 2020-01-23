@@ -13,6 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="057231dd-35c4-47f3-bec6-207ae10b59db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1.c" beforeDir="false" afterPath="$PROJECT_DIR$/lab1.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +98,7 @@
       <workItem from="1579273564210" duration="3171000" />
       <workItem from="1579341364378" duration="3019000" />
       <workItem from="1579512242322" duration="3023000" />
-      <workItem from="1579750688638" duration="1175000" />
+      <workItem from="1579750688638" duration="1413000" />
     </task>
     <task id="LOCAL-00001" summary="take list of lpq in child, write to file and print it in parent. Start to work with interruption">
       <created>1578823344385</created>
@@ -141,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579752037324</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Polishment">
+      <created>1579752428217</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579752428217</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,10 +168,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1579169059028" />
-    <state x="424" y="127" key="CommitChangelistDialog2" timestamp="1579752037222">
+    <state x="424" y="127" key="CommitChangelistDialog2" timestamp="1579752428101">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="424" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1579752037222" />
+    <state x="424" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1579752428101" />
     <state x="169" y="94" key="DiffContextDialog" timestamp="1578823290978">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -196,10 +204,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1579751694421" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1579752422362">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1579752455661">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1579752422362" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1579752455661" />
     <state x="519" y="387" key="com.intellij.ide.util.TipDialog" timestamp="1579750689412">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
