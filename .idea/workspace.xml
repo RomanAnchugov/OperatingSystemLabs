@@ -13,7 +13,12 @@
   <component name="ChangeListManager">
     <list default="true" id="057231dd-35c4-47f3-bec6-207ae10b59db" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OperatingSystemLabs.dir/lab1.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OperatingSystemLabs.dir/lab1.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OperatingSystemLabs.dir/test.c.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OperatingSystemLabs" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OperatingSystemLabs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lab.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lab.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab1.c" beforeDir="false" afterPath="$PROJECT_DIR$/lab1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.c" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +103,15 @@
       <workItem from="1579273564210" duration="3171000" />
       <workItem from="1579341364378" duration="3019000" />
       <workItem from="1579512242322" duration="3023000" />
-      <workItem from="1579750688638" duration="1413000" />
+      <workItem from="1579750688638" duration="1494000" />
+      <workItem from="1579944600774" duration="347000" />
+      <workItem from="1579945097028" duration="3760000" />
+      <workItem from="1580277897314" duration="94000" />
+      <workItem from="1580358037318" duration="419000" />
+      <workItem from="1580414826638" duration="70000" />
+      <workItem from="1580548353443" duration="31000" />
+      <workItem from="1580558601095" duration="4047000" />
+      <workItem from="1581240982718" duration="370000" />
     </task>
     <task id="LOCAL-00001" summary="take list of lpq in child, write to file and print it in parent. Start to work with interruption">
       <created>1578823344385</created>
@@ -149,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579752428217</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Polishment">
+      <created>1579752612606</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1579752612606</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,30 +188,34 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1579169059028" />
-    <state x="424" y="127" key="CommitChangelistDialog2" timestamp="1579752428101">
+    <state x="424" y="127" key="CommitChangelistDialog2" timestamp="1579752612492">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="424" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1579752428101" />
+    <state x="424" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1579752612492" />
     <state x="169" y="94" key="DiffContextDialog" timestamp="1578823290978">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="169" y="94" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1578823290978" />
-    <state width="1680" height="301" key="GridCell.Tab.0.bottom" timestamp="1579751694454">
+    <state width="1680" height="301" key="GridCell.Tab.0.bottom" timestamp="1580639957257">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1680" height="301" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579751694454" />
-    <state width="1680" height="301" key="GridCell.Tab.0.center" timestamp="1579751694453">
+    <state width="1680" height="301" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1580639957257" />
+    <state width="1680" height="301" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1580060144506" />
+    <state width="1680" height="301" key="GridCell.Tab.0.center" timestamp="1580639957256">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1680" height="301" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579751694453" />
-    <state width="1680" height="301" key="GridCell.Tab.0.left" timestamp="1579751694452">
+    <state width="1680" height="301" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1580639957256" />
+    <state width="1680" height="301" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1580060144504" />
+    <state width="1680" height="301" key="GridCell.Tab.0.left" timestamp="1580639957255">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1680" height="301" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579751694452" />
-    <state width="1680" height="301" key="GridCell.Tab.0.right" timestamp="1579751694453">
+    <state width="1680" height="301" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1580639957255" />
+    <state width="1680" height="301" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1580060144491" />
+    <state width="1680" height="301" key="GridCell.Tab.0.right" timestamp="1580639957257">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1680" height="301" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579751694453" />
+    <state width="1680" height="301" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1580639957257" />
+    <state width="1680" height="301" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580060144505" />
     <state x="404" y="181" key="Registry" timestamp="1579172606641">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -204,15 +228,15 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1579751694421" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1579752455661">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1579752614185">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1579752455661" />
-    <state x="519" y="387" key="com.intellij.ide.util.TipDialog" timestamp="1579750689412">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1579752614185" />
+    <state x="519" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1581240985949">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="519" y="372" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1579274270922" />
-    <state x="519" y="387" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1579750689412" />
+    <state x="519" y="372" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1581240985949" />
+    <state x="519" y="372" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1580358118747" />
     <state x="629" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579752258051">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

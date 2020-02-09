@@ -5,7 +5,7 @@
 #include <signal.h>
 #include <string.h>
 
-/*
+/**
  *Написать программу, предоставляющую информацию о содержи-мом оче¬реди на печать.
  * Передать эту информацию через файловую систему в па¬раллельный процесс
  * и в нем вывести на экран дисплея содержимое тех файлов, которые хотят распечатать.
@@ -27,23 +27,23 @@ int main() {
 
     //interruption handler
     struct sigaction keyboard_interrupter;
-    keyboard_interrupter.sa_handler = interruption_handler;//make out function as a handler of interruption
-    sigemptyset(&keyboard_interrupter.sa_mask);          // no additional blocking signals
+    keyboard_interrupter.sa_handler = interruption_handler;
+    sigemptyset(&keyboard_interrupter.sa_mask);
     sigprocmask(0, 0, &keyboard_interrupter.sa_mask);      // save current mask
-    keyboard_interrupter.sa_flags = 0;                   // not to perform special actions
+    keyboard_interrupter.sa_flags = 0;
     sigaction(SIGINT, &keyboard_interrupter, 0);
 
-    int fd = open(OUTPUT_FILENAME, O_WRONLY | O_CREAT, 0600);//open or create file for output
+    int write_fd = creat(OUTPUT_FILENAME, 0600);
 
     if (fork() == 0) {//Child
         printf("-Child-\n");
 
-        if (fd == -1) {
-            printf("\nFile opening/creating error\n");
+        if (write_fd == -1) {
+            printf("\nFile creating error\n");
             exit(ERROR_OPEN_FILE_PARENT);
         }
 
-//        dup2(fd, STDOUT_FILENO);//redirect std output to file
+        dup2(write_fd, STDOUT_FILENO);//redirect std output to file
         execl("/usr/bin/lpq", "lpq");//third argument is parameters without -
     } else {//Parent
         wait(NULL);//link to an int that will contain status
@@ -56,7 +56,7 @@ int main() {
         }
 
         char buff[255];
-        char filename[100];
+        char filename[255];
 
         //skip two first lines with fields information
         fgets(buff, 255, fptr);
@@ -74,11 +74,18 @@ int main() {
             printf("Files %s content:\n\n", filename);
 
             //cat to print content of file
-            char result_command[200] = "cat ";
+            char result_command[260] = "cat ";
             strcat(result_command, filename);
             system(result_command);
 
-            printf("---\n");
+            printf("\nBytes count: \n");
+            if (fork() == 0) {
+                execl("/usr/bin/wc", "wc", "-c", filename, NULL);
+            } else {
+                wait(NULL);
+            }
+
+            printf("\n---\n");
 
             //skip last two fields(size)
             fscanf(fptr, "%s", buff);
@@ -91,7 +98,7 @@ int main() {
 
         //close files
         fclose(fptr);
-        close(fd);
+        close(write_fd);
 
         printf("\n-program finished-\n");
     }
